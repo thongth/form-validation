@@ -56,6 +56,10 @@ h2{
     border-radius: 4px;
 }
 
+.form-control input:hover{
+    border: 2px solid #5daee4;
+}
+
 .form-control input:focus{
     outline: 0;
     border-color: #777;
@@ -92,4 +96,9 @@ h2{
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #5daee4;
+    border: 2px solid #5daee4;
 }
